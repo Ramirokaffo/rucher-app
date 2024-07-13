@@ -1,11 +1,19 @@
 
 body {
-    padding: 10% 25%;
+    padding: 10% 20%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+main {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10%;
 }
 
 h1 {
     text-align: center;
     color: green;
+    font-weight: 100;
 }
 
 .flex-div {
@@ -16,7 +24,6 @@ h1 {
 .flex-div > div {
     display: flex;
     flex-direction: column;
-    /* gap: 20px; */
 }
 
 .flex-div > div span {
