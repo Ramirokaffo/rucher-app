@@ -25,6 +25,7 @@ header a {
     padding: 5px 10px;
     border-radius: 50px;
     color: teal;
+    transition: 0.3s all ease;
 }
 
 
@@ -32,4 +33,12 @@ header a {
     background-color: teal;
     color: white;
     font-weight: bold;
+}
+
+
+header a:hover {
+    scale: 1.01;
+    background-color: rgba(0, 128, 128, 1);
+    transition: 0.3s all ease;
+    color: white;
 }
